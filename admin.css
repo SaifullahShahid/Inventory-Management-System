@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+.container {
+    display: flex;
+    align-items: top;
+    justify-content: top;
+   
+    max-height:600px ;
+   padding-bottom: 400px;
+}
+body {
+    background-color: #e8edeb; /* Choose a suitable background color */
+}
+
+.form-box {
+    height: 10px; /* Adjust the height to your preference */
+    width: 100%; /* Adjust the width to your preference */
+    max-width: 580px;
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Center the form-box */
+}
+    
+    
+.form-box h1{
+    font-size: 100%;
+    margin-bottom: 50px;
+    color:#3c00a0;
+    position: relative;
+    border-style: solid;
+}
+.form-box h1::after{
+    content: '';
+    width: 90px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+.input-field {
+    height: 110px;
+    background: #eaeaea;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border: 2px solid #ddd;
+}
+.input-field label {
+    margin-bottom: -20px;
+    font-weight: bold;
+    color: #333;
+}
+.input-field input,
+.input-field select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+.input-field:hover{
+    background-color: rgb(204, 234, 243);
+    transform: translateY(-5%);
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding:18px 15px
+
+}
+
+.input-field{
+    margin-left: 15px;
+    color: #999;
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 30px;
+    border:0;
+    outline: 0;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.add, .delete, .update {
+    background-color: rgb(214, 197, 240);
+    border-radius: 20px;
+    border: 2px solid #333;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add:hover, .delete:hover, .update:hover {
+    background-color: #c6b4e1;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title></title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      
+   
+      
+   </head>
+   <body>
+      <div id="side-bar"></div>
+         <div class="btn">
+            <span class="fas fa-bars"></span>
+         </div>
+         <nav class="sidebar">
+            <div class="text">
+               Menu
+            </div>
+            <ul>
+               <li ><a href="user-home.php">Home</a></li>
+               <li>
+                  <a href="#" class="feat-btn">Browse
+                  <span class="fas fa-caret-down first"></span>
+                  </a>
+                  <ul class="feat-show">
+                     <li><a href="usershirt.php">Shirts</a></li>
+                     <li><a href="userpants.php">Pants</a></li>
+                     <li><a href="usershoes.php">Shoes</a></li>
+                  </ul>
+               </li>
+               <li><a href="user-shopping-cart.php">Shopping Cart</a></li>
+               <li><a href="user-wishlist.php">Wish list</a></li>
+               
+               <li><a href="login.php">Log Out</a></li>
+             
+            
+            </ul>
+         </nav>
+      
+    
+      <script>
+         $('.btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+      </script>
+   </body>
+</html>
