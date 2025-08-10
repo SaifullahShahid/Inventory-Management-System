@@ -19,7 +19,7 @@ Built with **HTML, CSS, JavaScript** for the frontend and **PHP + MySQL** for th
 
 ## 🛠️ Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP (procedural or OOP depending on your implementation)
-- **Database:** MySQL (via phpMyAdmin on XAMPP)
+- **Backend:** PHP 
+- **Database:** MySQL
 - **Server:** Apache (XAMPP stack)
 
