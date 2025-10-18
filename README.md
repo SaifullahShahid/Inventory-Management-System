@@ -3,7 +3,7 @@
 A full-stack **web application** developed as part of the Database Systems course, featuring **Admin** and **Customer** roles for managing and purchasing inventory.  
 Built with **HTML, CSS, JavaScript** for the frontend and **PHP + MySQL** for the backend, hosted on a **XAMPP local server**.
 
-## 🚀 Features
+## Features
 
 ### Admin
 - Add, update, and delete items in the inventory.
@@ -17,7 +17,7 @@ Built with **HTML, CSS, JavaScript** for the frontend and **PHP + MySQL** for th
 - Save products to a **wishlist** for future reference.
 - Secure login to manage personal account and orders.
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP 
 - **Database:** MySQL
